@@ -5,7 +5,7 @@ author:
   link: 
 date: 2022-01-30 19:00:00 +0900
 categories: [Blog, Post]
-tags: [test]
+tags: [post]
 math: true
 mermaid: true
 image:
@@ -14,136 +14,35 @@ image:
   height: #500
 ---
 
-First Post
+jinozpersona.github.io theme 적용 및 포스트 작성 과정 기록
+---------------------------------------------------
 
-chirpy theme 사용법
+***
 
+# Intro
+1. [GitHub 가입 및 git commit/push](<https://jinozblog.tistory.com/122?category=1074513>){:target="_blank"}
+2. [github.io 블로그 생성](<https://jinozblog.tistory.com/123?category=1074513>){:target="_blank"}
+3. [github.io jekyll bundler 설치 및 git push 적용](<https://jinozblog.tistory.com/125?category=1074513>){:target="_blank"}
+4. [githun.io chirpy-theme 적용 및 git push](<https://jinozblog.tistory.com/126?category=1074513>){:target="_blank"}
 
+***
 
-## Titles
----
-# H1 - heading
-
-<h2 data-toc-skip>H2 - heading</h2>
-
-<h3 data-toc-skip>H3 - heading</h3>
-
-<h4>H4 - heading</h4>
----
-<br>
-
-## Paragraph
-
-문단내용 넣기.
-
-
-## Lists
-
-### Ordered list
-
-1. Firstly
-2. Secondly
-3. Thirdly
-
-### Unordered list
-
-- Chapter
-  - Section
-    - Paragraph
-
-### Task list
-
-- [ ] TODO
-- [x] Completed
-- [ ] Defeat COVID-19
-  - [x] Vaccine production
-  - [ ] Economic recovery
-  - [ ] People smile again
-
-### Description list
-
-Sun
-: the star around which the earth orbits
-
-Moon
-: the natural satellite of the earth, visible by reflected light from the sun
-
-## Block Quote
-
-> This line shows the _block quote_.
-
-## Prompts
-
-> An example showing the `note` type prompt.
-{: .prompt-note }
-
-> An example showing the `warning` type prompt.
-{: .prompt-warning }
-
-> An example showing the `danger` type prompt.
-{: .prompt-danger }
-
-## Tables
-
-| Company                      | Contact          | Country |
-|:-----------------------------|:-----------------|--------:|
-| Alfreds Futterkiste          | Maria Anders     | Germany |
-| Island Trading               | Helen Bennett    | UK      |
-| Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy   |
+# 1. GitHub 가입 및 git commit/push
+## GitHub 회원 가입과 git 사용하기
 
 
 
-
-<h2>.... 중략 ....</h2>
-
-
+# 2. github.io 블로그 생성
+## github.io 일명 github page 생성하기
 
 
-## Inline code
 
-This is an example of `Inline Code`.
+# 3. github.io jekyll bundler 설치 및 git push 적용
+## github jekyll theme 사용을 위한 ruby 설치와 localhost server 실행
 
-## Filepath
 
-Here is the `/path/to/the/file.extend`{: .filepath}.
 
-## Code block
+# 4. github.io chirpy-theme 적용 및 git push
+## jekyll theme 적용 과정
 
-### Common
 
-```
-This is a common code snippet, without syntax highlight and line number.
-```
-
-### Specific Languages
-
-#### Console
-
-```console
-$ env |grep SHELL
-SHELL=/usr/local/bin/bash
-PYENV_SHELL=bash
-```
-
-#### Shell
-
-```bash
-if [ $? -ne 0 ]; then
-    echo "The command was not successful.";
-    #do the needful / exit
-fi;
-```
-
-### Specific filename
-
-```sass
-@import
-  "colors/light-typography",
-  "colors/dark-typography"
-```
-{: file='_sass/jekyll-theme-chirpy.scss'}
-
-## Reverse Footnote
-
-[^footnote]: The footnote source
-[^fn-nth-2]: The 2nd footnote source
