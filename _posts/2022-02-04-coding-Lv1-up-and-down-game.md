@@ -32,7 +32,7 @@ tags: [coding, practice, lv1]
 
 ## platform : python
 > ### 접근방법
->    > 1. 랜텀 숫자 추출
+>    > 1. 랜덤 숫자 추출
 >    > 2. try except 정수 확인
 >    > 3. 양의 정수 판별
 >    > 4. while 반복문 안에서 if 조건에 맞는 내용 출력
