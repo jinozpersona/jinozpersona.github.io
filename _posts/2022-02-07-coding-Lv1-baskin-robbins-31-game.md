@@ -36,7 +36,7 @@ tags: [coding, practice, lv1]
 >    > 1. king_number 4n+2 이해
 >    > 2. try except : force input number to player
 >    > 3. Algorithm for king win!
->    > 4. Grame Process print
+>    > 4. Grame Process print...
 
 
 ## My Answer
