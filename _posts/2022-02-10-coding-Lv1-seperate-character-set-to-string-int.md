@@ -5,7 +5,7 @@ author:
   link: 
 date: 2022-02-10 13:00:00 +0900
 categories: [Practice, Lv1]
-tags: [coding, practice, lv1]
+tags: [coding, practice, lv1, character, seperate]
 # math: true
 # mermaid: true
 # image:
@@ -63,14 +63,16 @@ for tstr in input_charset:
   else:
     strset.append(tstr)
 
-print("str : {}".format(', '.join(strset).replace(', ','')))
-print("int : {}".format(', '.join(intset).replace(', ','')))
+# print("str : {}".format(', '.join(strset).replace(', ','')))
+# print("int : {}".format(', '.join(intset).replace(', ','')))
+print("str : {}".format(''.join(strset)))
+print("int : {}".format(''.join(intset)))
 print("----****----")
 print("strset string list : {}".format(strset))
 print("intset string list : {}".format(intset))
 print("intset int list : {}".format(intset_int))
 print("----****----")
-conv_intset = int(', '.join(intset).replace(', ',''))
+conv_intset = int(''.join(intset))
 print("convert to int type from intset: {}, converted type: {}".format(conv_intset, type(conv_intset)))
 
 </code>

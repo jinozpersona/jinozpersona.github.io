@@ -5,7 +5,7 @@ author:
   link: 
 date: 2022-02-07 11:00:00 +0900
 categories: [Practice, Lv1]
-tags: [coding, practice, lv1]
+tags: [coding, practice, lv1, baskin robbins 31]
 # math: true
 # mermaid: true
 # image:

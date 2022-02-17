@@ -1,11 +1,11 @@
 ---
-title: Practice Coding - Lv1 password encrytion
+title: Practice Coding - Lv1 password encryption
 author:
   name: jinozpersona
   link: 
 date: 2022-02-07 9:00:00 +0900
 categories: [Practice, Lv1]
-tags: [coding, practice, lv1]
+tags: [coding, practice, lv1, password, encryption]
 # math: true
 # mermaid: true
 # image:
@@ -63,7 +63,7 @@ except ValueError:
 
 if it_is == True and input_num >= 1 and input_num <= 2.5*10**5:
   do_secret = int((input_num**(1/2))*10**3) - input_num
-  print("encrytion number : {}\n".format(do_secret))
+  print("encryption number : {}\n".format(do_secret))
 
 else:
   print("Your input_num is wrong, please input positive integer number.")

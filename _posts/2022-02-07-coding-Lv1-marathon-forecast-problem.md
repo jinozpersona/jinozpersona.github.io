@@ -5,7 +5,7 @@ author:
   link: 
 date: 2022-02-07 10:00:00 +0900
 categories: [Practice, Lv1]
-tags: [coding, practice, lv1]
+tags: [coding, practice, lv1, marathon, forecast]
 # math: true
 # mermaid: true
 # image:
